@@ -9,15 +9,28 @@
   },
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "create": "node_modules/.bin/db-migrate --config config/database.json create",
+    "up": "node_modules/.bin/db-migrate --config config/database.json up",
+    "down": "node_modules/.bin/db-migrate --config config/database.json down"
   },
   "author": "Russell John Gapasin",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "db-migrate": "^0.11.10",
+    "db-migrate-mysql": "^2.1.1",
     "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0",
     "nodemon": "^2.0.2",
     "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
     "sequelize": "^5.21.5",
     "squel": "^5.13.0"
   }
