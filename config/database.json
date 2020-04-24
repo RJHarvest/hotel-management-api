@@ -1,0 +1,20 @@
+{
+  "defaultEnv": "dev",
+  "dev": {
+    "host": "127.0.0.1",
+    "user": "root",
+    "password": "29443234",
+    "database": "hotel_management",
+    "driver": "mysql",
+    "port": "3306",
+    "multipleStatements": true
+  },
+  "prod": {
+    "host": { "ENV": "HOST" },
+    "user": { "ENV": "USER" },
+    "password": { "ENV": "PASSWORD" },
+    "database": { "ENV": "DATABASE" },
+    "driver": "mysql",
+    "multipleStatements": true
+  }
+}
