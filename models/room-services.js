@@ -14,9 +14,9 @@ module.exports = (sequelize, Sequelize) => {
       allowNull: false
     },
     status: {
-      type: Sequelize.ENUM('reserved','checked_in','checked_out'),
+      type: Sequelize.ENUM('pending','checked_in','checked_out'),
       allowNull: false,
-      defaultValue: 'reserved'
+      defaultValue: 'pending'
     },
     remarks: {
       type: Sequelize.STRING(255),
