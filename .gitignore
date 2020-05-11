@@ -5,3 +5,4 @@ dev2.js
 html/
 test.js
 database.json
+.env
