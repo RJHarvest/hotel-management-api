@@ -7,13 +7,13 @@ Stakeholders involved:
 - Hotel Guests
 - Internal Hotel Staff
 
-### Tech Stack
+## Tech Stack
 
 - NodeJs
 - Express
 - MySQL 5.7
 
-### Get Started
+## Get Started
 
 Install dependencies
 ```
@@ -21,16 +21,12 @@ npm install
 npm run dev
 ```
 
-### Data Migration (Optional)
+## Data Migration (Optional)
 
 *Note: The existing migration SQL scripts are based on MySQL Version 5.7.25*
 
 1. Add .env file with your database configurations
 ```
-.env
-
----
-
 HOST=<your-host-name>
 USER=<your-user>
 PASSWORD=<your-password>
