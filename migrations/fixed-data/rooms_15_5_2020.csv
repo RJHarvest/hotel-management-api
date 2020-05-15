@@ -1,0 +1,41 @@
+room_number,room_type,room_capacity,price_rate
+"101","deluxe room",2,1500.00
+"102","deluxe room",2,1500.00
+"103","deluxe room",2,1500.00
+"104","deluxe room",2,1500.00
+"105","deluxe room",2,1500.00
+"106","premium room",3,2500.00
+"107","premium room",3,2500.00
+"108","premium room",3,2500.00
+"109","premium room",3,2500.00
+"110","premium room",3,2500.00
+"201","deluxe room",2,1500.00
+"202","deluxe room",2,1500.00
+"203","deluxe room",2,1500.00
+"204","deluxe room",2,1500.00
+"205","deluxe room",2,1500.00
+"206","premium room",3,2500.00
+"207","premium room",3,2500.00
+"208","premium room",3,2500.00
+"209","premium room",3,2500.00
+"210","premium room",3,2500.00
+"301","deluxe room",2,1500.00
+"302","deluxe room",2,1500.00
+"303","deluxe room",2,1500.00
+"304","deluxe room",2,1500.00
+"305","premium room",3,2500.00
+"306","premium room",3,2500.00
+"307","premium room",3,2500.00
+"308","sea view room",3,6000.00
+"309","sea view room",3,6000.00
+"310","sea view room",3,6000.00
+"401","sea view room",3,6000.00
+"402","sea view room",3,6000.00
+"403","sea view room",3,6000.00
+"404","sea view room",3,6000.00
+"405","executive suite",4,9000.00
+"406","executive suite",4,9000.00
+"407","executive suite",4,9000.00
+"408","executive suite",4,9000.00
+"501","presidential suite",5,15000.00
+"502","presidential suite",5,15000.00
