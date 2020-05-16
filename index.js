@@ -18,8 +18,6 @@ app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
-app.use(express.static(path.join(__dirname, 'html')))
-
 app.use(
   cookieSession({
     maxAge: 7*24*60*60*1000, // 7 days
@@ -48,6 +46,12 @@ require('./routes/guest/task')(app)
 require('./routes/image')(app)
 // ping routes
 require('./routes/ping')(app)
+
+// for testing in dev
+if (process.env.NODE_ENV !== 'production') {
+  app.use(express.static(path.join(__dirname, 'html')))
+  require('./routes/test')(app)
+}
 
 const port = process.env.PORT || 5000
 app.listen(port, () => {
